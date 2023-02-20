@@ -24,3 +24,5 @@ Once built, run the image:
 ...or run it with a bind mount to the current source code:
 
 `docker run --mount type=bind,source="$(pwd)",target=/usr/src -it cpp-container`
+
+[![Build C++](https://github.com/SloaneTribble/GameDie/actions/workflows/actions.yml/badge.svg)](https://github.com/SloaneTribble/GameDie/actions/workflows/actions.yml)
