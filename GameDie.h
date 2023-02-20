@@ -11,8 +11,10 @@ class GameDie
    GameDie(unsigned int);
    int roll();
    vector <int> get_distribution();
+   vector<double> get_percentages();
 
   private:
+
    vector <int> counter;
    const static int FACES = 6;
 };
